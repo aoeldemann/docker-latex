@@ -9,8 +9,6 @@ RUN apt-get update \
                                                       texlive-science \
                                                       texlive-fonts-extra \
                                                       latexmk \
-                                                      inkscape \
-                                                      fonts-lyx \
  && rm -rf /var/lib/apt/lists/*
 
 VOLUME ["/work"]
