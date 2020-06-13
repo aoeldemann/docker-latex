@@ -8,6 +8,7 @@ RUN apt-get update \
                                                       texlive-publishers \
                                                       texlive-science \
                                                       texlive-fonts-extra \
+                                                      texlive-extra-utils \
                                                       latexmk \
  && rm -rf /var/lib/apt/lists/*
 
